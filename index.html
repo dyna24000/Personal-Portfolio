@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio for a Computer Science student and future full-stack developer.">
+  <title>PORKK DINA | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="site-bg">
+    <span class="noise"></span>
+    <span class="grid-lines"></span>
+  </div>
+
+  <header class="site-header" id="top">
+    <nav class="nav">
+      <a class="brand" href="#top" aria-label="Go to top">
+        <img src="image/Logo.png" alt="brand logo" class="brand-logo">
+        <span>PORKK DINA</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-links" data-nav-links>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#journey">Journey</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <span class="eyebrow">Computer Science Student</span>
+          <h1>PORKK DINA</h1>
+          <p class="hero-title">Computer Science Student | Future Full-Stack Developer</p>
+          <p class="hero-intro">
+            I am passionate about technology, problem-solving, and building impactful digital experiences that combine clean design with reliable engineering.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View Projects</a>
+            <a class="btn btn-secondary" href="#contact">Contact Me</a>
+          </div>
+
+          <div class="hero-stats" aria-label="Portfolio highlights">
+            <div>
+              <strong>9+</strong>
+              <span>Core Skills</span>
+            </div>
+            <div>
+              <strong>4</strong>
+              <span>Project Areas</span>
+            </div>
+            <div>
+              <strong>∞</strong>
+              <span>Learning Mindset</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal delay-1" aria-label="Professional profile image placeholder">
+          <div class="portrait-card">
+            <div class="portrait-image">
+              <img src="image/profile.jpg" alt="PORKK DINA profile" class="portrait-photo">
+            </div>
+            <div class="portrait-meta">
+              <span>Available for internship opportunities</span>
+              <strong>Full-Stack Journey</strong>
+            </div>
+          </div>
+          <div class="floating-note note-one">Clean UI</div>
+          <div class="floating-note note-two">Practical Projects</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container split-layout">
+        <div class="section-heading reveal">
+          <span class="eyebrow">About Me</span>
+          <h2>Building the foundation for meaningful software.</h2>
+        </div>
+        <div class="about-panel reveal delay-1">
+          <p>
+            I am a sophomore Computer Science student focused on learning the principles behind great software: strong fundamentals, thoughtful interfaces, and practical problem-solving.
+          </p>
+          <div class="about-grid">
+            <article>
+              <span>Education</span>
+              <p>Sophomore Computer Science student developing a strong base in programming, databases, web technologies, and software design.</p>
+            </article>
+            <article>
+              <span>Learning Path</span>
+              <p>Currently growing through HTML, CSS, JavaScript, Java, Python, SQL, Git, UI/UX basics, and full-stack development concepts.</p>
+            </article>
+            <article>
+              <span>Ambition</span>
+              <p>My goal is to become a full-stack developer who can create useful products, collaborate with professional teams, and contribute to real-world impact.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <span class="eyebrow">Skills</span>
+          <h2>Technical skills with visible momentum.</h2>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card reveal" style="--level: 88%">
+            <span class="skill-icon">H</span>
+            <div>
+              <h3>HTML</h3>
+              <p>Semantic structure and accessible page foundations.</p>
+            </div>
+            <div class="progress"><span></span></div>
+          </article>
+          <article class="skill-card reveal" style="--level: 84%">
+            <span class="skill-icon">C</span>
+            <div>
+              <h3>CSS</h3>
+              <p>Responsive layouts, visual systems, and polished motion.</p>
+            </div>
+            <div class="progress"><span></span></div>
+          </article>
+          <article class="skill-card reveal" style="--level: 72%">
+            <span class="skill-icon">JS</span>
+            <div>
+              <h3>JavaScript</h3>
+              <p>Interactive interfaces and browser-based logic.</p>
+            </div>
+            <div class="progress"><span></span></div>
+          </article>
+          <article class="skill-card reveal" style="--level: 52%">
+            <span class="skill-icon">JV</span>
+            <div>
+              <h3>Java</h3>
+              <p>Object-oriented programming and academic projects.</p>
+            </div>
+            <div class="progress"><span></span></div>
+          </article>
+          <article class="skill-card reveal" style="--level: 40%">
+            <span class="skill-icon">PY</span>
+            <div>
+              <h3>Python</h3>
+              <p>Problem-solving, scripting, and programming fundamentals.</p>
+            </div>
+            <div class="progress"><span></span></div>
+          </article>
+          <article class="skill-card reveal" style="--level: 0%">
+            <span class="skill-icon">DB</span>
+            <div>
+              <h3>SQL</h3>
+              <p>Data modeling basics and structured queries.</p>
+            </div>
+            <div class="progress"><span></span></div>
+          </article>
+          <article class="skill-card reveal" style="--level: 76%">
+            <span class="skill-icon">G</span>
+            <div>
+              <h3>Git & GitHub</h3>
+              <p>Version control, repositories, and project history.</p>
+            </div>
+            <div class="progress"><span></span></div>
+          </article>
+          <article class="skill-card reveal" style="--level: 62%">
+            <span class="skill-icon">UX</span>
+            <div>
+              <h3>UI/UX Basics</h3>
+              <p>Clean layouts, usability, hierarchy, and user flow.</p>
+            </div>
+            <div class="progress"><span></span></div>
+          </article>
+          <article class="skill-card featured reveal" style="--level: 42%">
+            <span class="skill-icon">FS</span>
+            <div>
+              <h3>Full-Stack Development Journey</h3>
+              <p>Connecting frontend, backend, data, and deployment into complete products.</p>
+            </div>
+            <div class="progress"><span></span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="eyebrow">Projects</span>
+          <h2>Selected work and project directions.</h2>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card reveal">
+            <div class="project-image stream-visual">
+              <span class="play-button"></span>
+            </div>
+            <div class="project-content">
+              <h3>Video Streaming Website</h3>
+              <p>A responsive video platform concept focused on browsing content, clean media layouts, and a premium viewing experience.</p>
+              <div class="tech-list">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <div class="project-actions">
+                <a href="#" aria-label="Open Video Streaming Website GitHub repository">GitHub</a>
+                <a href="#" aria-label="Open Video Streaming Website live demo">Live Demo</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal delay-1">
+            <div class="project-image portfolio-visual">
+              <img src="image/portfolio-visual.png" alt="portfolio-visual" class="project-photo">
+            </div>
+            <div class="project-content">
+              <h3>Personal Portfolio Website</h3>
+              <p>A cinematic personal brand website designed to present skills, ambition, and project work with confidence.</p>
+              <div class="tech-list">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://github.com/dyna24000/Personal-Portfolio" target="_blank" rel="noreferrer">GitHub</a>
+                <a href="https://dyna24000.github.io/Personal-Portfolio/" target="_blank" rel="noreferrer">Live Demo</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-image stack-visual">
+              <img src="image/stack-visual.png" alt="stack-visual" class="project-photo">
+            </div>
+            <div class="project-content">
+              <h3>Future Full-Stack Projects</h3>
+              <p>Upcoming applications combining user interfaces, server logic, databases, authentication, and deployment workflows.</p>
+              <div class="tech-list">
+                <span>React</span>
+                <span>Node.js</span>
+                <span>SQL</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://github.com/dyna24000/Yun-Yun" target="_blank" rel="noreferrer">GitHub</a>
+                <a href="https://yun-yun.vercel.app/" target="_blank" rel="noreferrer">Live Demo</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal delay-1">
+            <div class="project-image university-visual">
+              <img src="image/university-visual.png" alt="university-visual" class="project-photo">
+            </div>
+            <div class="project-content">
+              <h3>University Assignment Projects</h3>
+              <p>Academic programming work that strengthens fundamentals in algorithms, data, logic, and structured problem-solving.</p>
+              <div class="tech-list">
+                <span>Html</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://github.com/dyna24000/FinalProject_t02y01" target="_blank" rel="noreferrer">GitHub</a>
+                <a href="https://dyna24000.github.io/FinalProject_t02y01/" target="_blank" rel="noreferrer">Live Demo</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section journey-section" id="journey">
+      <div class="container split-layout">
+        <div class="section-heading reveal">
+          <span class="eyebrow">Experience</span>
+          <h2>Learning with intention, building with consistency.</h2>
+        </div>
+
+        <div class="timeline reveal delay-1">
+          <article>
+            <span></span>
+            <div>
+              <h3>Sophomore Computer Science Student</h3>
+              <p>Developing core programming knowledge and academic discipline.</p>
+            </div>
+          </article>
+          <article>
+            <span></span>
+            <div>
+              <h3>Self-learning Full-Stack Development</h3>
+              <p>Studying frontend, backend, databases, Git workflows, and deployment practices.</p>
+            </div>
+          </article>
+          <article>
+            <span></span>
+            <div>
+              <h3>Building Practical Projects</h3>
+              <p>Turning lessons into usable websites and applications that demonstrate progress.</p>
+            </div>
+          </article>
+          <article>
+            <span></span>
+            <div>
+              <h3>Continuous Improvement Mindset</h3>
+              <p>Improving through feedback, consistency, curiosity, and a professional standard of work.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div class="section-heading reveal">
+          <span class="eyebrow">Contact</span>
+          <h2>Let’s connect and build something useful.</h2>
+          <p>Open to internships, collaboration, networking, and learning opportunities.</p>
+        </div>
+
+        <div class="contact-panel reveal delay-1">
+          <a href="mailto:mrrporkkdyna@gmail.com" target="_blank" rel="noreferrer">
+            <span>Email</span>
+            <strong>mrrporkkdyna@gmail.com</strong>
+          </a>
+          <a href="https://github.com/dyna24000" target="_blank" rel="noreferrer">
+            <span>GitHub</span>
+            <strong>github.com/dyna24000</strong>
+          </a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
+            <span>LinkedIn</span>
+            <strong>None</strong>
+          </a>
+          <a href="https://t.me/dyna24000" target="_blank" rel="noreferrer">
+            <span>Telegram</span>
+            <strong>@dyna24000</strong>
+          </a>
+          <a href="https://www.facebook.com/dyna24000/" target="_blank" rel="noreferrer">
+            <span>Facebook</span>
+            <strong>facebook.com/ប៉ែន ឌីណា៚</strong>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span data-year></span> Your Name. All rights reserved.</p>
+      <p>Build with purpose. Learn with discipline. Create with impact.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
